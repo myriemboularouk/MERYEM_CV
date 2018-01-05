@@ -34,7 +34,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-    background: url(../images/lamontagemauve.jpg) no-repeat top center;/*modif Meryem*/
+    background: url(../images/blue-flower.jpg) no-repeat top center;/*modif Meryem*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -644,7 +644,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background:#f292B8 url(../images/bleu.jpg) no-repeat center center;/*modif meryem*/
+   background:#f292B8 url(../images/cielbleu.jpg) no-repeat center center;/*modif meryem*/
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
