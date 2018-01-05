@@ -1,0 +1,156 @@
+@charset "UTF-8";
+/*CSS Document admin sara*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #d9534f;;
+  text-align: center;
+}
+
+.well{
+  text-align: center;
+  background: #d9534f;
+}
+.breadcrumb{
+  background: #FBF7F7;
+}
+p.text-muted {
+    color: white;
+}
+/*h1{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;;
+}
+h2{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+h4{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+p{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+li{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+a{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+th{
+   font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+td{
+    font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}
+div{
+    font-family: 'Bitter', serif;
+   font-family: 'Great Vibes', cursive;
+}*/
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: white;
+    background-color: #58789e;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+}
+body{
+  background: url(img/.jpg);
+}
+.panel-danger>.panel-heading {
+    color: white;
+    background-color: #7199d4;
+    border-color: #ebccd1;
+}
+<<<<<<< HEAD
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+}
+
+
+/*.btn-danger{
+    margin-left: 60px;
+}*/
+
+/*.btn-success{
+    margin-left: 60px;*/
+}*/
+
+
+/*h2{
+    font-family: 'Concert One', cursive;
+    margin-left: 797px;
+}
+
+.titre{
+    font-family: 'Concert One', cursive;
+    margin-left: 727px;
+}
+
+.row{
+    margin-left: 712px;
+}*/
+
+
+/*
+.conteneur{
+    margin-left: 641px;
+}
+
+.titre{
+    margin-left: 156px;
+    margin-top: 3px;
+    font-family: 'Concert One', cursive;
+}
+
+.titre2{
+    font-family: 'Concert One', cursive;
+    margin-left: 752px;
+}
+
+.competence{
+    position: absolute;
+    left: 642px;
+    top: 122px;
+}
+
+
+
+form{
+    margin-left: 485px;
+    width: 40%;
+    margin-top: 50px;
+}
+
+fieldset{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+*/
+=======
+>>>>>>> 088da76366610159498e3c70acdd21d1d246418a
