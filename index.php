@@ -1,4 +1,5 @@
 <?php  
+/*hadi*/
 
    require('public/init.inc.php');
    require('public/Contact.class.php');
