@@ -77,7 +77,7 @@ if (!empty($_POST)) {
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline"><?= $ligne_utilisateur['prenom']?> <?= $ligne_utilisateur['nom']?>  </h1>
-             <h2><span>Intégratrice dévellopeuse 2017</span><br>
+             <h2 class="titre"><span>Intégratrice dévellopeuse 2017</span><br>
              <span> Architecte d'état : diplôme algérien  2007</span>
              </h2>
              <hr />
