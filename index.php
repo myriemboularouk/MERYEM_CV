@@ -1,6 +1,4 @@
 <?php  
-
-
    require('public/init.inc.php');
    require('public/Contact.class.php');
     $resultat = $pdo -> query("SELECT * FROM t_utilisateurs WHERE id_utilisateur = '1'");
@@ -10,6 +8,7 @@
 $resultat = $pdo -> query("SELECT * FROM t_utilisateurs WHERE id_utilisateur = '1'");
 $ligne_utilisateur = $resultat -> fetch(PDO::FETCH_ASSOC);
 ?>
+
 <?php 
 // on vérifie que le formulaire a bien été posté
 if (!empty($_POST)) {
@@ -55,6 +54,7 @@ if (!empty($_POST)) {
    <link rel="stylesheet" href="public/css/magnific-popup.css">
    <!-- Script
    ================================================== -->
+    <!-- une librairie qui gere les atributs entre la css et le js-->
 	<script src="js/modernizr.js"></script>
    <!-- Favicons
 	================================================== -->
@@ -65,7 +65,7 @@ if (!empty($_POST)) {
         ================================================== -->
    <header id="home">
       <nav id="nav-wrap">
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Accueil</a></li>
@@ -83,9 +83,11 @@ if (!empty($_POST)) {
              <hr />
              <ul class="social">
                 <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
                 <li><a href="https://www.linkedin.com/mynetwork/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->                        
+                <li><a href="CV_meryem_boularouk (2).pdf" target="_blank">CV papier</a></li>
+                <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+               <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>                       
             </ul>
          </div>
       </div>
@@ -215,7 +217,7 @@ if (!empty($_POST)) {
    <section id="contact">
          <div class="row section-head">
             <div class="two columns header-col">
-               <h1><span>Entrer en contact avec Meryem.</span></h1>
+               <h1><span>Entrer en contact avec Meryem </span></h1>
             </div>
             <div class="ten columns">
                  <p class="lead">Merci de me  contacter </p>                
@@ -246,20 +248,20 @@ if (!empty($_POST)) {
                <!-- contact-warning -->
              <div id="message-warning">erreur dans votre message </div>
                <!-- contact-success -->
-				   <<div id="message-success">
+			 <div id="message-success">
                   <i class="fa fa-check"></i>votre message etait bien enregistrer , merci!<br>
 				   </div>
             </div>
          </div>
-   </section>--> <!-- Contact Section End-->
+   </section> <!-- Contact Section End-->
      <!-- footer -->
       <footer>
       <div class="row">
          <div class="twelve columns">
             <ul class="social-links">
-               <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
             </ul>
             <ul class="copyright">
                <!--<li>&copy; Copyright 2014 CeeVee</li>-->
