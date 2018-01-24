@@ -82,12 +82,11 @@ if (!empty($_POST)) {
              </h2>
              <hr />
              <ul class="social">
-                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                <!--<li><a href="#"><i class="fa fa-twitter"></i></a></li>-->
+                <li><a href="https://www.facebook.com/meryem.archidev" target="_blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://www.linkedin.com/mynetwork/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="CV_meryem_boularouk (2).pdf" target="_blank">CV papier</a></li>
-                <!--<li><a href="#"><i class="fa fa-instagram"></i></a></li>-->
-               <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>                       
+                <li><a href="CV_meryem_boularouk (2).pdf" target="_blank">cv</a></li>
+                <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <li><a href="https://github.com/myriemboularouk" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>
          </div>
       </div>
@@ -259,9 +258,10 @@ if (!empty($_POST)) {
       <div class="row">
          <div class="twelve columns">
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="https://www.facebook.com/meryem.archidev" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com/mynetwork/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="CV_meryem_boularouk (2).pdf" target="_blank">cv</a></li>
+             <li><a href="https://github.com/myriemboularouk" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
             </ul>
             <ul class="copyright">
                <!--<li>&copy; Copyright 2014 CeeVee</li>-->

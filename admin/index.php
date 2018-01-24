@@ -43,6 +43,7 @@ if (isset($_SESSION['connexion']) && $_SESSION['connexion'] == 'connecté') { //
       <h1>Admin : <?= ($ligne_utilisateur['prenom']); ?> <?= ($ligne_utilisateur['nom']); ?></h1>
       <hr>
       <h2 class="col-xs-12 col-sm-6 col-md-offset-5 col-sm-offset-1">Accueil admin</h2>
+      <img class="col-xs-12 col-sm-6 col-md-offset-3 col-sm-offset-1" src="img/accueil.jpg">
   </body>
 </html>
 <?php include('inc/footer.inc.php'); ?>

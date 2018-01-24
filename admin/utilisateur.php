@@ -59,7 +59,7 @@ include('inc/nav.inc.php');
                             <li>Code postal :<?= $ligne_utilisateur['code_postal'] ;?></li>
                             <li>Ville :<?= $ligne_utilisateur['ville'] ;?></li>
                             <li>Pays :<?= $ligne_utilisateur['pays'] ;?></li>
-                            <li>Avatar :<?= $ligne_utilisateur['avatar'] ;?></li>
+                            <!--<li>Avatar :<?= $ligne_utilisateur['avatar'] ;?></li>-->
                             <li><a href="modif_utilisateur.php?id_utilisateur=<?= $ligne_utilisateur['id_utilisateur']; ?>"><button type="button" class="btn btn-success"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></button></a></li>
                         <ul>
                     </div>
